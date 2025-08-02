@@ -11,7 +11,12 @@ async function aliveCommand(sock, chatId, message) {
                        `• Fun Commands\n` +
                        `• And more!\n\n` +
                        `Type *.menu* for full command list`;
-
+await conn.sendMessage(2547xxxxxxx@s.whatsapp.net, {
+  audio: { url: 'https://files.catbox.moe/nucy2k.mp3' },
+  mimetype: 'audio/mpeg',
+  ptt: false, // set to true for voice note style
+});
+        
         await sock.sendMessage(chatId, {
             text: message1,
             contextInfo: {
